@@ -1,0 +1,370 @@
+#topNav img {
+  height: 60px;
+  width: 180px;
+  margin-left: 50px !important;
+}
+
+#topNav {
+  background-color: rgb(241, 181, 13) !important;
+  padding: 5px 5% !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 22px;
+  font-weight: 400;
+  padding-left: 30px !important;
+}
+
+#searchBox {
+  background-color: #ffcc00 !important;
+  color: white !important;
+  font-weight: 500;
+  border: 0;
+  position: relative;
+  left: 45px;
+  box-shadow: 5px 8px 7px 0 #0a0a0a64;
+}
+
+#searchBox::placeholder {
+  color: white;
+  font-weight: 400;
+}
+#searchbtn {
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+}
+
+@media only screen and (max-width: 995px) {
+  #seachForm {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #topNav {
+    padding: 0 !important;
+  }
+  .img-fluid {
+    width: 160px !important;
+  }
+}
+
+#bannerImg {
+  height: 520px !important;
+}
+
+#bannerImg img {
+  height: 460px;
+  margin-top: 55px;
+}
+#banner {
+  background-color: #ffd500;
+}
+
+#bannerText h1 {
+  color: white !important;
+  font-size: 70px;
+  margin-top: 100px;
+}
+
+#bannerText p {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#btn1 {
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+#btn2 {
+  color: white !important;
+  border: 2px solid white;
+  margin-left: 25px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1090px) {
+  #bannerText h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #bannerText h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 795px) {
+  #bannerText h1 {
+    font-size: 45px;
+  }
+}
+
+/* Service section */
+
+#serviceImg {
+  padding: 5%;
+}
+#serviceImg img {
+  height: 95%;
+  width: 110%;
+  margin-top: 40px;
+  position: relative;
+  box-shadow: -10px -12px 9px #0a0a0a64;
+}
+
+/* #block1 {
+  height: 40%;
+  width: 10%;
+  background-color: #fcc302;
+  position: relative;
+  bottom: 126px;
+  left: -41px;
+}
+
+#block2 {
+  height: 10%;
+  width: 40%;
+  background-color: #fcc302;
+  position: relative;
+  bottom: 169px;
+  left: -30px;
+} */
+
+#serviceText {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#serviceText h1 {
+  font-size: 55px;
+}
+#servicebtn {
+  color: white;
+  background-color: #fcc302;
+  font-weight: 500;
+  border: 2px solid #fcc302;
+}
+
+@media only screen and (max-width: 1120px) {
+  #serviceText h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  #serviceText h1 {
+    font-size: 38px;
+  }
+
+  #serviceImg img {
+    height: 95%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #serviceText h1 {
+    font-size: 33px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #serviceText h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #serviceText p {
+    text-align: center;
+    font-size: large;
+  }
+
+  #servicebtn {
+    margin-left: 43%;
+  }
+}
+
+/* Counter */
+#counterSection {
+  margin-top: 50px;
+  background: url("doctorDog.png");
+  background-size: contain;
+  opacity: 0.5;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-position: center;
+  background-size: cover;
+}
+
+.section h3 {
+  font-size: 40px;
+  color: rgb(112, 3, 3) !important;
+}
+
+.counterIcon {
+  color: rgb(112, 3, 3) !important;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1150px) {
+  .section h3 {
+    font-size: 33px;
+  }
+
+  .counterIcon {
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .section h3 {
+    font-size: 27px;
+  }
+
+  .counterIcon {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #counterSection {
+    height: 680px;
+    padding-top: 45px;
+  }
+}
+
+/* blog */
+#blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: antiquewhite !important;
+}
+
+#blogTitle {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fcc302;
+}
+
+.hey {
+  height: 280px !important;
+  width: 400px !important;
+}
+
+.shad {
+  box-shadow: -10px -12px 9px #0a0a0a64;
+}
+
+#blogPara {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: crimson;
+}
+
+.tite {
+  color: #c39604;
+}
+
+.date {
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+
+.detail {
+  padding: 15px;
+  border: 2px solid rgb(185, 185, 185);
+  border-top: 0;
+}
+
+.link {
+  color: brown;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: large;
+}
+
+.desc {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #343434;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white !important;
+}
+
+#footer form {
+  margin: 10px 0px;
+}
+
+#foot-search-box {
+  background-color: #fcc302;
+  color: white;
+  border: 0;
+  padding: 7px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 74%;
+  max-width: 300px;
+  position: relative;
+}
+
+#foot-search-submit {
+  background-color: #00bec9;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -1px;
+  height: 42px;
+}
+
+.social {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  #foot-search-box {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #foot-search-box {
+    max-width: 200px;
+  }
+  #footer {
+    padding-top: 15px;
+  }
+  #footer h4 {
+    padding-top: 40px;
+  }
+}

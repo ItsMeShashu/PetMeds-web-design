@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dogs Health Center</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="CustomBoot.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="topNav">
+      <div class="container-fluid">
+        <a href="#"><img src="DogLogo.png" class="img-fluid" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#aboutUs"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="seachForm">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="searchBox"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              id="searchbtn"
+            >
+              <b><i class="bi bi-search"></i></b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center" id="banner">
+        <div class="col-md-6" id="bannerText">
+          <h1>First I wanted to be a veterinarian</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
+            ut labore eius commodi debitis cum sit veritatis fugit sunt neque
+            sint officia quam et temporibus?
+          </p>
+          <button type="button" class="btn" id="btn1">Contact Us</button>
+          <button type="button" class="btn" id="btn2">Our Service</button>
+        </div>
+        <div class="col-md-4 d-none d-md-block" id="bannerImg">
+          <img class="img-fluid" src="dog.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Service -->
+    <div class="row justify-content-center">
+      <div class="col-md-5" id="serviceText">
+        <h1>
+          <b>As a Veterinarian and <br />Lover of Animals.</b>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi itaque
+          commodi ducimus necessitatibus nam voluptatibus, repellat ab expedita
+          eius dicta id fugiat. Aspernatur consequuntur rerum saepe, vel id
+          sequi quia.
+        </p>
+        <button type="button" class="btn" id="servicebtn">Our Service</button>
+      </div>
+      <div class="col-md-5" id="serviceImg">
+        <img src="dogownerimg.jpg" alt="" />
+        <div id="block1"></div>
+        <div id="block2"></div>
+      </div>
+    </div>
+
+    <!-- Counter -->
+    <div class="row justify-content-center" id="counterSection">
+      <div class="col-md-3 text-center text-white mt-5 mb-3 section">
+        <i class="bi bi-heart-pulse-fill counterIcon"></i>
+        <h3>
+          +3479<br />
+          Happy Clients
+        </h3>
+      </div>
+      <div class="col-md-3 text-center text-white mt-5 mb-3 section">
+        <i class="bi bi-wallet-fill counterIcon"></i>
+        <h3>
+          +45832<br />
+          Departments
+        </h3>
+      </div>
+      <div class="col-md-3 text-center text-white mt-5 mb-3 section">
+        <i class="bi bi-eyedropper counterIcon"></i>
+        <h3>
+          +54762<br />
+          Vaccinations
+        </h3>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <div class="row justify-content-evenly" id="blog">
+      <div class="col-12 text-center">
+        <h1 id="blogTitle">Recent Posts</h1>
+        <p id="blogPara">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Quos
+          officia quae saepe.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-11 shad mt-4">
+        <img src="img1.png" alt="" class="img-fluid hey" />
+        <div class="detail">
+          <h4 class="tite">As a Veterinarian and Lover of Animals</h4>
+          <p class="date">FEBRUARY 09, 2021</p>
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            dolores dolore mollitia officia velit minima!
+          </p>
+          <p><a href="#" class="link">Read More+</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-11 shad mt-4">
+        <img src="img2.png" alt="" class="img-fluid hey" />
+        <div class="detail">
+          <h4 class="tite">As a Veterinarian and Lover of Animals</h4>
+          <p class="date">APRIL 12, 2022</p>
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            dolores dolore mollitia officia velit minima!
+          </p>
+          <p><a href="#" class="link">Read More+</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-11 shad mt-4">
+        <img src="img3.png" alt="" class="img-fluid hey" />
+        <div class="detail">
+          <h4 class="tite">As a Veterinarian and Lover of Animals</h4>
+          <p class="date">OCTOBER 25, 2021</p>
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            dolores dolore mollitia officia velit minima!
+          </p>
+          <p><a href="#" class="link">Read More+</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <di class="row justify-content-center text-white" id="footer">
+      <div class="col-md-3 justify-content-center mt-3 col-11" id="aboutUs">
+        <h4>About</h4>
+        <b>
+          <a href="">History</a><br />
+          <a href="">Our Team</a><br />
+          <a href="">Brand Guidelines</a><br />
+          <a href="">Terms&Conditions</a><br />
+          <a href="">Privacy Policy</a><br />
+        </b>
+      </div>
+      <div class="col-md-3 justify-content-center mt-3 col-11" id="services">
+        <h4>Services</h4>
+        <b>
+          <a href="">How to order </a><br />
+          <a href="">Our Products</a><br />
+          <a href="">Order Status</a><br />
+          <a href="">Promo</a><br />
+          <a href="">Payment Method</a><br />
+        </b>
+      </div>
+      <div class="col-md-4 mt-3 col-11">
+        <h4>Reach Us...</h4>
+        <p><b>Lorem ipsum dolor sit amet.</b></p>
+        <form action="">
+          <input type="text" id="foot-search-box" />
+          <button type="submit" id="foot-search-submit">
+            <i class="bi bi-cursor-fill"></i>
+          </button>
+        </form>
+        <a href="#"><i class="bi bi-twitter social"></i></a>
+        <a href="#"><i class="bi bi-instagram social"></i></a>
+        <a href="#"><i class="bi bi-facebook social"></i></a>
+        <a href="#"><i class="bi bi-whatsapp social"></i></a>
+      </div>
+    </di>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
